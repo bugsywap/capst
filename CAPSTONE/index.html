@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+	 <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+    <nav>
+        <img src="ds.png" class = "logo">
+        <ul>
+            <li><a href="index.html" class="active">Dashboard</a></li>
+            <li><a href="pl.html">Patient List</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="dg.html">Dental Gallery</a></li>
+            <li><a href="msg.html">Messages</a></li>
+            <li><a href="apt.html">Appointments</a></li>
+            <li><div class="scene">
+                <div class="cube">
+                  <span class="side top">Delete all files</span>
+                  <span class="side front">Hello, [DR.Name]</span>
+                </div>
+              </div></li>
+        </ul>
+    </nav>
+
+		<!----------end-of-nav---------->
+
+       <!----------Title---------->
+		<div class="header-text">
+			<section id="reminder-section" class="welcome-section">
+				<h1>Reminders</h1>
+			</section>
+            </div>
+       <!----------end-of-title---------->
+
+        <!----------Cards----------> 
+        <div class = "card-container">
+            <div class="card">
+                <h3 class="card-title">[Time],</h3>
+                <p class="card__content">[Name]</p>
+                <p class="card__content-service">[Service]</p>
+                <div class="card__date">
+                    [Date]
+                </div>
+               
+            </div>
+            <div class="card">
+                <h3 class="card-title">[Time]</h3>
+                <p class="card__content">[Name]</p>
+                <p class="card__content-service">[Service]</p>
+                <div class="card__date">
+                    [Date]
+                </div>
+                
+            </div>
+            <div class="card">
+                <h3 class="card-title">[Time]</h3>
+                <p class="card__content">[Name]</p>
+                <p class="card__content-service">[Service]</p>
+                <div class="card__date">
+                    [Date]
+                </div>
+                
+            </div>
+            <div class="card">
+                <h3 class="card-title">[Time]</h3>
+                <p class="card__content">[Name]</p>
+                <p class="card__content-service">[Service]</p>
+                <div class="card__date">
+                    [Date]
+                </div>
+            </div>
+                <img src="arrow2.svg" class="arrow">
+         </div>
+           
+        <!----------end-of-cards----------> 
+
+         <!----------Title---------->
+		<div class="header-text-pending">
+			<section id="reminder-section" class="welcome-section">
+				<h1>Pending Booking</h1>
+			</section>
+            </div>
+       <!----------end-of-title---------->
+
+        <!----------Pending Booking---------->
+       <div class="box">
+        <div class ="row">
+            <div class = "column-name">
+                <h2>Name</h2>
+                <ul>
+                   
+                </ul>
+            </div>
+            <div class = "column-stat">
+                <h2>Status</h2>
+                <ul>
+                   
+                </ul>
+            </div>
+            <div class = "column-service">
+                <h2>Service</h2>
+                <ul>
+                    
+                </ul>
+                
+            </div>
+            <div class = "column-sched">
+                <h2>Schedule</h2>
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class = "column-action">
+                <h2>Actions</h2>
+                <ul>
+                    <li><a href="#">View Details >></a><label class="check">
+                        <input type="checkbox" class="checkb">
+                        Accept Booking</label></li>
+                    <li><a href="#">View Details >> </a><label class="check">
+                        <input type="checkbox" class="checkb">
+                        Accept Booking</label></li>
+                    <li><a href="#">View Details >></a><label class="check">
+                        <input type="checkbox" class="checkb">
+                        Accept Booking</label></li>
+                    <li><a href="#">View Details >></a><label class="check">
+                        <input type="checkbox" class="checkb">
+                        Accept Booking</label></li>
+                    <li><a href="#">View Details >></a><label class="check">
+                        <input type="checkbox" class="checkb">
+                        Accept Booking</label></li>
+                   
+                </ul>
+            </div>
+         </div>
+       </div>
+        <!---------end-of-pending booking---------->
+
+            </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
